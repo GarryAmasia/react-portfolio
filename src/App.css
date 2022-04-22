@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-nav {
+  min-height: 90vh;
+  /* height: 80vh; */
+  /* background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+      no-repeat center center; */
+
+  /* background-size: cover; */
+
+  background: url(https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  color: white;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a.nav-link {
+  font-weight: bold;
+  color: white !important;
+  letter-spacing: 0.1em;
+}
+
+a.nav-link:hover {
+  color: green !important;
+}
+
+.sec-title {
+  border-bottom: 5px solid rgb(63, 63, 63);
+  width: 250px;
+}
+
+.sec-content i {
+  font-size: 5rem;
+}
+
+.project {
+  background: rgb(176, 176, 176);
+}
+
+.contact-icons {
+  min-height: 30vh;
+  background: url(https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29udGFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60)
+    no-repeat center center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* border-radius: 50px; */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icons {
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons {
+  font-size: 2rem;
+}
+
+footer {
+  position: relative;
+}
+
+.up {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+
+  width: 50px;
+  height: 50px;
+  background: red;
+  color: black;
+  border: black solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler {
+  background-color: yellow;
+  /* border-color: yellow; */
 }
